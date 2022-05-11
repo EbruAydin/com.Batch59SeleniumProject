@@ -39,7 +39,15 @@ public class C04_WebElementMethodlari {
             System.out.println("NameAttribute testi PASSED");
         else System.out.println("NameAttribute testi FAILED");
 
+        System.out.println("konum : " + aramaKutusu.getLocation());
+        System.out.println("webElement yuksekligi : "+aramaKutusu.getSize().height);
+
         driver.close();
+
+        /*
+        webElementIsmi.getTagName()--->daha once locate ettigimiz bir web elementin tagname'ini dondurur
+        webElement
+         */
 
 
     }
